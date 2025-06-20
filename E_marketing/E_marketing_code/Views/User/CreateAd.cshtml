@@ -1,0 +1,62 @@
+﻿@model emarketing.Models.tbl_product
+
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Create Ad";
+}
+
+<!-- Centering the form content and adding styles -->
+<div style="display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f4f4f9;">
+    <div style="background-color: #ffffff; padding: 30px; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); width: 400px;">
+
+        <h2 style="color: #007bff; text-align: center; margin-bottom: 20px;">Create Ad</h2>
+
+        @using (Html.BeginForm("CreateAd", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <!-- Category Field -->
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="Category" style="width: 90px; text-align: right; margin-right: 10px; display: inline-block;"><i class="fas fa-tags"></i> Category:</label>
+                @Html.DropDownListFor(model => model.pro_fk_cat, new SelectList(ViewBag.Categories, "cat_id", "cat_name"), "Select Category", new { @class = "form-control", @id = "Category", @required = "required", style = "width: calc(100% - 110px); display: inline-block;" })
+                @Html.ValidationMessageFor(model => model.pro_fk_cat, "", new { @class = "text-danger", style = "margin-left: 100px;" })
+            </div>
+
+            <!-- Product Image Field -->
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="ProductImage" style="width: 90px; text-align: right; margin-right: 10px; display: inline-block;"><i class="fas fa-image"></i> Image:</label>
+                <input type="file" name="ProductImage" accept="image/*" class="form-control" id="ProductImage" required style="width: calc(100% - 110px); display: inline-block;" />
+                <span class="text-danger" data-valmsg-for="ProductImage" data-valmsg-replace="true" style="margin-left: 100px;"></span>
+            </div>
+
+            <!-- Name Field -->
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="Name" style="width: 90px; text-align: right; margin-right: 10px; display: inline-block;"><i class="fas fa-font"></i> Name:</label>
+                @Html.TextBoxFor(model => model.pro_name, new { @class = "form-control", @id = "Name", @required = "required", style = "width: calc(100% - 110px); display: inline-block;" })
+                @Html.ValidationMessageFor(model => model.pro_name, "", new { @class = "text-danger", style = "margin-left: 100px;" })
+            </div>
+
+            <!-- Price Field -->
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="Price" style="width: 90px; text-align: right; margin-right: 10px; display: inline-block;"><i class="fas fa-dollar-sign"></i> Price:</label>
+                @Html.TextBoxFor(model => model.pro_pric, new { @class = "form-control", @id = "Price", @required = "required", @type = "number", style = "width: calc(100% - 110px); display: inline-block;" })
+                @Html.ValidationMessageFor(model => model.pro_pric, "", new { @class = "text-danger", style = "margin-left: 100px;" })
+            </div>
+
+            <!-- Description Field -->
+            <div class="form-group" style="margin-bottom: 20px;">
+                <label for="Description" style="width: 90px; text-align: right; margin-right: 10px; display: inline-block;"><i class="fas fa-align-left"></i> Description:</label>
+                @Html.TextAreaFor(model => model.pro_des, new { @class = "form-control", @id = "Description", @required = "required", style = "width: calc(100% - 110px); display: inline-block;", rows = 4 })
+                @Html.ValidationMessageFor(model => model.pro_des, "", new { @class = "text-danger", style = "margin-left: 100px;" })
+            </div>
+
+            <!-- Submit Button -->
+            <div style="text-align: center;">
+                <input type="submit" value="Create Ad" class="btn btn-primary" style="padding: 5px 20px; font-size: 14px;" />
+            </div>
+        }
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

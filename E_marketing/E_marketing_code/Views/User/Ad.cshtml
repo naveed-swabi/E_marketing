@@ -1,0 +1,181 @@
+﻿@model PagedList.IPagedList<emarketing.Models.tbl_product>
+
+@using PagedList.Mvc;
+
+@{
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+    ViewBag.Title = "View Products";
+    string logoPath = Url.Content("~/Content/ImageUpload/e-commerc.png"); // Update with your actual logo path
+}
+
+<!-- Navigation Bar -->
+<div class="search-bar">
+    <form action="@Url.Action("Search", "User")" method="get">
+        <input type="text" name="query" placeholder="Search Products..." />
+        <button type="submit">Search</button>
+    </form>
+</div>
+
+<div class="text-center">
+    <img src="@logoPath" alt="Website Logo" style="width: 150px; margin-bottom: 20px;" /> <!-- Logo -->
+</div>
+
+<h2 class="text-center">View Products</h2>
+
+<div class="row product-grid">
+    @if (Model != null && Model.Count > 0)
+    {
+        foreach (var item in Model)
+        {
+            <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+                <div class="card mb-4">
+                    <div class="card-img-container">
+                        <a href="@Url.Action("ViewAd", "User", new { id = item.pro_id })">
+                            <img src="@Url.Content(!string.IsNullOrEmpty(item.pro_image) ? item.pro_image : "~/Content/ImageUpload/default-product.jpg")"
+                                 alt="@item.pro_name" class="card-img-top" />
+                        </a>
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                <a href="@Url.Action("ViewAd", "User", new { id = item.pro_id })">
+                                    @item.pro_name
+                                </a>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-12 text-center">
+            <p>No products available at the moment.</p>
+        </div>
+    }
+</div>
+
+<div class="text-center">
+    @Html.PagedListPager(Model, page => Url.Action("Usercategory", new { page }), new PagedListRenderOptions
+    {
+        DisplayLinkToFirstPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToLastPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToIndividualPages = true
+    })
+</div>
+
+<!-- Inline CSS -->
+<style>
+    .navbar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #007bff;
+        padding: 10px 20px;
+        color: white;
+    }
+
+    .navbar .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .navbar .nav-links a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar .nav-links a:hover {
+        text-decoration: underline;
+    }
+
+    .card {
+        box-shadow: none;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        background: none;
+    }
+
+    .card-img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: auto;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .card-body {
+        text-align: center;
+        width: 100%;
+    }
+
+    .header {
+        text-align: center;
+        padding: 20px;
+        background-color: #f8f9fa;
+        margin-top: 20px;
+    }
+
+    .header img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .search-bar {
+        display: flex;
+        justify-content: center; /* Center the form horizontally */
+        margin: 20px 0;
+    }
+
+    .search-bar form {
+        display: flex; /* Align items in a row */
+        align-items: center; /* Center items vertically */
+        width: 100%; /* Make the form take full width of the container */
+        max-width: 600px; /* Set a max width for the form */
+    }
+
+    .search-bar input[type="text"] {
+        flex: 1; /* Take up remaining space in the form */
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 10px; /* Space between input and button */
+    }
+
+    .search-bar button {
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        flex-shrink: 0; /* Prevent button from shrinking */
+    }
+
+    .search-bar button:hover {
+        background-color: #0056b3;
+    }
+
+    /* Media query for small screens */
+   
+
+        .card {
+            width: 80%; /* Make the card width 80% of the parent container */
+            margin: 10px auto; /* Add some margin around cards */
+        }
+    
+</style>

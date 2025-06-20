@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="dbemarketingEntities-Web.config Connection String" description="dbemarketingEntities Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:dbmarketingserver.database.windows.net,1433;Initial Catalog=dbemarketing;Persist Security Info=False;User ID=naveed;Password=Pakistan1985;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=true;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\visual\ studio\ 2022\\emarketing\\emarketing\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='dbemarketingEntities']/@connectionString" />
+  </parameter>
+</parameters>

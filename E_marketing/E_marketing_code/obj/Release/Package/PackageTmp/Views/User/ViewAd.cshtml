@@ -1,0 +1,275 @@
+﻿@model emarketing.Models.tbl_product
+
+@{
+    ViewBag.Title = "View Ads";
+}
+
+<!-- Common Container -->
+<div class="common-container">
+    <!-- Header Image -->
+    <nav class="navbar">
+        <div class="nav-links">
+            @if (Session["u_id"] == null && Session["ad_id"] == null)
+            {
+                <a href="/User/Usercategory">Home</a>
+                <a href="/Admin/Login">Admin</a>
+                <a href="/User/Login">Login</a>
+                <a href="/User/Signup">Signup</a>
+            }
+            else if (Session["ad_id"] != null)
+            {
+                <a href="/User/Usercategory">Home</a>
+                <span class="username">@Session["ad-name"]</span>
+                <a href="/User/Logout">Logout</a>
+                <a href="/Admin/ViewCategory">Categories</a>
+
+            }
+            else
+            {
+                <a href="/User/Usercategory">Home</a>
+                <span class="username">@Session["username"]</span>
+                <a href="/User/CreateAd">PostAd</a>
+                <a href="/User/Logout">Logout</a>
+            }
+
+        </div>
+    </nav>
+
+    <div class="header-img-container">
+        <img src="~/Content/ImageUpload/header4.jpg" alt="Header Image" class="header-img" />
+    </div>
+
+    <h1 class="main-heading">E-commerce-DealX</h1>
+    <!-- Main Content and Sidebar -->
+    <div class="container-with-sidebar">
+        <div class="main-content">
+            <div class="container">
+                <div class="content-wrapper">
+                    <!-- Product Image on the Right -->
+                    @if (Model != null)
+                    {
+                        <div class="image-container">
+                            <img src="@Url.Content(!string.IsNullOrEmpty(Model.pro_image) ? Model.pro_image : "~/Content/ImageUpload/default-product.jpg")" class="img-size" alt="@Model.pro_name" />
+                            <h1>@Model.pro_name</h1>
+                        </div>
+                        <div class="info-container">
+                            <div class="user-info">
+                                <img src="@Url.Content(!string.IsNullOrEmpty(Model.tbl_user?.u_image) ? Model.tbl_user.u_image : "~/Content/ImageUpload/default-user.jpg")" class="user-img-size" alt="@Model.tbl_user?.u_name" />
+                                <p>Seller: @(Model.tbl_user != null ? Model.tbl_user.u_name : "Unknown Seller")</p>
+                                <p>Contact: @(Model.tbl_user != null ? Model.tbl_user.u_contact : "N/A")</p>
+                            </div>
+                            <div class="details-container">
+                                <h1>@Model.pro_name</h1>
+                                <p>Price: @Model.pro_pric</p>
+                                <p class="description">@Model.pro_des</p>
+                                @if (Convert.ToInt32(Session["u_id"]) == Convert.ToInt32(Model.pro_fk_user))
+                                {
+                                    @Html.ActionLink("Delete this Ad", "DeleteAd", new { id = Model.pro_id }, new { @class = "btn btn-danger" })
+                                }
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+                        <!-- Display a message if no product is found -->
+                        <div class="info-container">
+                            <p>No product found to display.</p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar with Ad Image -->
+        <div class="sidebar">
+            <img src="~/Content/ImageUpload/best-car.jpeg" class="ad-img" alt="Sidebar Ad" />
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; @DateTime.Now.Year - My E-commerce Application Developed by Naveed Ahmad Lodhi   contact# 00923152373174  Eamil:ahmadswabistar@gmail.com</p>
+    </footer>
+</div>
+
+<style>
+    /* Common Container for Consistent Width */
+    .common-container {
+        max-width: 1200px; /* Set a max width for the entire page layout */
+        margin: 0 auto;
+        padding: 0 10px; /* Add padding to avoid content touching edges */
+        box-sizing: border-box; /* Include padding and border in the element's total width */
+    }
+
+    /* Navbar Styles */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #007bff;
+        padding: 10px 20px;
+        color: white;
+        width: 100%; /* Full width within the common container */
+        box-sizing: border-box; /* Include padding in element's total width */
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+            .nav-links a:hover {
+                text-decoration: underline;
+            }
+
+    .username {
+        font-weight: bold;
+        margin-left: auto;
+    }
+
+    /* Header Image Styles */
+    .header-img-container {
+        width: 100%; /* Ensure it takes the full width of the common container */
+        max-width: 1200px; /* Set a maximum width consistent with the common container */
+        margin: 0 auto 20px auto; /* Center and add bottom margin */
+        overflow: hidden; /* Prevent content from expanding the container */
+        box-sizing: border-box; /* Include padding and border in width calculation */
+    }
+
+    .header-img {
+        width: 100%; /* Full width within the header container */
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    /* Main Content and Sidebar */
+    .container-with-sidebar {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch; /* Ensure columns stretch to equal height */
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 100%; /* Full width within the common container */
+        gap: 20px;
+    }
+
+    .main-content {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between; /* Distribute space equally */
+        padding-right: 15px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .sidebar {
+        width: 350px; /* Fixed width */
+        flex-shrink: 0; /* Prevent shrinking */
+        display: flex;
+        align-items: stretch;
+        box-sizing: border-box; /* Include padding/border in width */
+    }
+
+    .ad-img {
+        width: 100%; /* Ensure the ad image takes full width of sidebar */
+        height: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Ensures consistent size for different images */
+        border-radius: 8px;
+    }
+
+    .container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: 100%; /* Ensure it stretches to match sidebar height */
+    }
+
+    .content-wrapper {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 20px;
+        height: 100%; /* Full height of parent container */
+    }
+
+    .image-container {
+        width: 40%;
+        max-width: 500px;
+    }
+
+    .img-size {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+    .info-container {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 100%; /* Full height of the parent container */
+        justify-content: space-between; /* Distribute space equally */
+    }
+
+    .user-info {
+        background-color: #e9ecef;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .user-img-size {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .details-container {
+        background-color: #e9ecef;
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+        max-width: 100%;
+    }
+
+    /* Footer Styles */
+    .footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #007bff;
+        color: white;
+        width: 100%; /* Full width within the common container */
+        box-sizing: border-box; /* Include padding in element's total width */
+        border-radius: 8px;
+    }
+    .main-heading {
+        color: #FF6347; /* Tomato color or choose any other vibrant color */
+        font-weight: bold;
+        font-size: 36px; /* Increase size as needed */
+        text-align: center; /* Center the text */
+        margin: 0 auto 20px auto; /* Center horizontally and set bottom margin */
+        padding: 10px 0; /* Adjust top and bottom padding */
+        width: 100%; /* Take full width */
+        max-width: 1200px; /* Same max-width as the container */
+        background-color: #f0f0f0; /* Optional: background color */
+        border-radius: 8px; /* Optional: rounded corners */
+    }
+</style>

@@ -1,0 +1,375 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|d:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\views\\admin\\viewcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\views\\admin\\viewcategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\models\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\models\\model1.context.tt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\Usercategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Views\\User\\Usercategory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Shared\\_Layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Views\\Shared\\_Layout1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\visual studion 2022\\emarketing\\Web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Views\\Admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\ViewAd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Views\\User\\ViewAd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\App_Start\\RouteConfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\Ad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Views\\User\\Ad.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\CreateAd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Views\\User\\CreateAd.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Views\\User\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Shared\\_Layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Views\\Shared\\_Layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\tbl_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Models\\tbl_category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\tbl_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{101B183A-AF4F-4FE6-924E-B983DEF0CACD}|emarketing\\emarketing.csproj|solutionrelative:emarketing\\Models\\tbl_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "emarketing\\Models\\Model1.Context.cs",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\Model1.Context.cs",
+              "RelativeToolTip": "emarketing\\Models\\Model1.Context.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T20:05:01.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "emarketing\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "emarketing\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T10:41:02.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Admin\\login.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\Admin\\login.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Admin\\login.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\Admin\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T12:04:26.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "viewcategory.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Admin\\viewcategory.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\Admin\\viewcategory.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Admin\\viewcategory.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\Admin\\viewcategory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T14:59:57.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Web.config",
+              "DocumentMoniker": "F:\\visual studion 2022\\emarketing\\Web.config",
+              "ToolTip": "F:\\visual studion 2022\\emarketing\\Web.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-14T14:10:07.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "emarketing\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Controllers\\UserController.cs",
+              "RelativeToolTip": "emarketing\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-11T07:16:24.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T17:20:35.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usercategory.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\Usercategory.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\User\\Usercategory.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\Usercategory.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\User\\Usercategory.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAiwHAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T20:53:10.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Web.config",
+              "RelativeDocumentMoniker": "emarketing\\Views\\Web.config",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Web.config",
+              "RelativeToolTip": "emarketing\\Views\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-07T16:04:22.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Model1.Context.tt",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\Model1.Context.tt",
+              "RelativeDocumentMoniker": "emarketing\\Models\\Model1.Context.tt",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\Model1.Context.tt",
+              "RelativeToolTip": "emarketing\\Models\\Model1.Context.tt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-09T20:04:41.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Web.config",
+              "RelativeDocumentMoniker": "emarketing\\Web.config",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Web.config",
+              "RelativeToolTip": "emarketing\\Web.config",
+              "ViewState": "AgIAAEQAAAAAAAAAAAD4v0YAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-20T11:29:27.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Admin\\create.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\Admin\\create.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Admin\\create.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\Admin\\create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T14:42:57.745Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_Layout1.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\Shared\\_Layout1.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Shared\\_Layout1.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\Shared\\_Layout1.cshtml",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAKIAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-22T15:19:57.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-20T11:30:50.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ViewAd.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\ViewAd.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\User\\ViewAd.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\ViewAd.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\User\\ViewAd.cshtml",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAFoAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T09:44:12.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "emarketing\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "emarketing\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T14:39:31.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Ad.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\Ad.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\User\\Ad.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\Ad.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\User\\Ad.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-20T16:29:52.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateAd.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\CreateAd.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\User\\CreateAd.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\CreateAd.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\User\\CreateAd.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T15:04:18.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\login.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\User\\login.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\User\\login.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\User\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-12T21:01:03.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout2.cshtml",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeDocumentMoniker": "emarketing\\Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Views\\Shared\\_Layout2.cshtml",
+              "RelativeToolTip": "emarketing\\Views\\Shared\\_Layout2.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-25T14:44:35.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "tbl_category.cs",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\tbl_category.cs",
+              "RelativeDocumentMoniker": "emarketing\\Models\\tbl_category.cs",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\tbl_category.cs",
+              "RelativeToolTip": "emarketing\\Models\\tbl_category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T05:58:29.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "tbl_admin.cs",
+              "DocumentMoniker": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\tbl_admin.cs",
+              "RelativeDocumentMoniker": "emarketing\\Models\\tbl_admin.cs",
+              "ToolTip": "D:\\visual studio 2022\\asp.net_mvc_c#_local host-emarketing_project-using_vs\\emarketing\\emarketing\\Models\\tbl_admin.cs",
+              "RelativeToolTip": "emarketing\\Models\\tbl_admin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-09T06:05:04.963Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

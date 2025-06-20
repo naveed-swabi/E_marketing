@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2024-09-10T16:11:32.5904219Z"
+    }
+  },
+  "parameters": {
+    "dealx.resourceGroupName": {
+      "Name": "dealx.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "DefaultResourceGroup-CCAN"
+    },
+    "dealx.resourceGroupLocation": {
+      "Name": "dealx.resourceGroupLocation",
+      "Type": null,
+      "Value": "canadacentral"
+    },
+    "dealx.resourceName": {
+      "Name": "dealx.resourceName",
+      "Type": null,
+      "Value": "dealx"
+    },
+    "dealx.subscriptionId": {
+      "Name": "dealx.subscriptionId",
+      "Type": "subscription",
+      "Value": "e4e97262-5ca9-44a4-a76e-53a11ad646cf"
+    }
+  }
+}

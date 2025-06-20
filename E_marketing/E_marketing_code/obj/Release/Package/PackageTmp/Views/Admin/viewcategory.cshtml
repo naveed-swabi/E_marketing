@@ -1,0 +1,102 @@
+﻿@model PagedList.IPagedList<emarketing.Models.tbl_category>
+@using PagedList.Mvc;
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "View C@model PagedList.IPagedList<emarketing.Models.tbl_category>\r\n@using PagedList.Mvc;\r\n\r\n@{\r\n    Layout = \"~/Views/Shared/_Layout.cshtml\";\r\n    ViewBag.Title = \"View Categories\";\r\n    string logoPath = Url.Content(\"~/Content/ImageUpload/e-commerc.png\"); // Update with your actual logo path\r\n}\r\n\r\n<div class=\"text-center\">\r\n    <img src=\"@logoPath\" alt=\"Website Logo\" style=\"width: 150px; margin-bottom: 20px;\" /> <!-- Logo -->\r\n</div>\r\n\r\n<h2 class=\"text-center\">View Categories</h2>\r\n\r\n<div class=\"row\">\r\n    @foreach (var item in Model)\r\n    {\r\n        <div class=\"col-md-4 col-sm-6 col-xs-12 text-center\">\r\n            <div class=\"card mb-4\">\r\n                <div class=\"card-img-container\">\r\n                    <img src=\"@Url.Content(item.cat_image)\" alt=\"@item.cat_name\" class=\"card-img-top\" />\r\n                </div>\r\n                <div class=\"card-body\">\r\n                    <h5 class=\"card-title\">@item.cat_name</h5>\r\n                    @using (Html.BeginForm(\"DeleteCategory\", \"Admin\", FormMethod.Post))\r\n                    {\r\n                        @Html.AntiForgeryToken()\r\n                        @Html.Hidden(\"id\", item.cat_id)\r\n                        <input type=\"submit\" value=\"Delete\" class=\"btn btn-danger\" onclick=\"return confirm('Are you sure you want to delete this category?');\" />\r\n                    }\r\n                </div>\r\n            </div>\r\n        </div>\r\n    }\r\n</div>\r\n\r\n<div class=\"text-center\">\r\n    @Html.PagedListPager(Model, page => Url.Action(\"ViewCategory\", new { page }), new PagedListRenderOptions\r\n    {\r\n        DisplayLinkToFirstPage = PagedListDisplayMode.IfNeeded,\r\n        DisplayLinkToLastPage = PagedListDisplayMode.IfNeeded,\r\n        DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,\r\n        DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,\r\n        DisplayLinkToIndividualPages = true\r\n    })\r\n</div>\r\n\r\n<style>\r\n    .pagination {\r\n        display: flex;\r\n        justify-content: center;\r\n        list-style: none;\r\n        padding: 0;\r\n        margin: 0;\r\n    }\r\n\r\n    .pagination li {\r\n        margin: 0 5px;\r\n    }\r\n\r\n    .pagination a {\r\n        text-decoration: none;\r\n        color: #007bff;\r\n        padding: 5px 10px;\r\n        border-radius: 5px;\r\n        border: 1px solid #dee2e6;\r\n    }\r\n\r\n    .pagination a:hover {\r\n        background-color: #e9ecef;\r\n    }\r\n\r\n    .card {\r\n        box-shadow: none; /* Remove shadow */\r\n        border: none; /* Remove border */\r\n        padding: 0; /* Remove padding */\r\n        margin: 0; /* Remove margin */\r\n    }\r\n\r\n    .card-img-container {\r\n        display: flex;\r\n        justify-content: center;\r\n        align-items: center;\r\n        padding: 0; /* Remove padding */\r\n    }\r\n\r\n    .card-img-top {\r\n        width: 100%; /* Ensure image uses full container width */\r\n        height: auto; /* Maintain aspect ratio */\r\n        max-width: 100%; /* Avoid overflow */\r\n    }\r\n\r\n    .card-body {\r\n        text-align: center;\r\n        width: 100%;\r\n    }\r\n</style>\r\nategories";
+    string logoPath = Url.Content("~/Content/ImageUpload/e-commerc.png"); // Update with your actual logo path
+}
+
+<div class="text-center">
+    <img src="@logoPath" alt="Website Logo" style="width: 150px; margin-bottom: 20px;" /> <!-- Logo -->
+</div>
+
+<h2 class="text-center">View Categories</h2>
+
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4 col-sm-6 col-xs-12 text-center">
+            <div class="card mb-4">
+                <div class="card-img-container">
+                    <img src="@Url.Content(item.cat_image)" alt="@item.cat_name" class="card-img-top" />
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">@item.cat_name</h5>
+                    @using (Html.BeginForm("DeleteCategory", "Admin", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+                        @Html.Hidden("id", item.cat_id)
+                        <input type="submit" value="Delete" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this category?');" />
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<div class="text-center">
+    @Html.PagedListPager(Model, page => Url.Action("ViewCategory", new { page }), new PagedListRenderOptions
+    {
+        DisplayLinkToFirstPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToLastPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToPreviousPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToNextPage = PagedListDisplayMode.IfNeeded,
+        DisplayLinkToIndividualPages = true
+    })
+</div>
+
+<style>
+    .pagination {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        .pagination li {
+            margin: 0 5px;
+        }
+
+        .pagination a {
+            text-decoration: none;
+            color: #007bff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+        }
+
+            .pagination a:hover {
+                background-color: #e9ecef;
+            }
+
+    .card {
+        box-shadow: none; /* Remove shadow */
+        border: none; /* Remove border */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0; /* Remove padding */
+        margin: 0; /* Remove margin */
+    }
+
+    .card-img-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0; /* Remove padding */
+    }
+
+    .card-img-top {
+        width: 100%; /* Ensure the image uses the full width of the container */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; /* Avoid scaling beyond container width */
+    }
+
+    .card-body {
+        text-align: center;
+        width: 100%;
+    }
+</style>

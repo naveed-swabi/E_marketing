@@ -1,0 +1,107 @@
+﻿@model emarketing.Models.tbl_user
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Login";
+}
+
+@section Styles {
+    <style>
+        .login-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 345px;
+            text-align: center;
+            margin: 0 auto; /* Center horizontally within container */
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #007bff;
+            font-size: 28px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+            .form-group label {
+                display: block;
+                margin-bottom: 8px;
+                color: #555;
+                font-weight: 600;
+            }
+
+            .form-group input {
+                width: 100%;
+                padding: 12px 12px 12px 40px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                font-size: 16px;
+                color: #333;
+            }
+
+            .form-group .icon {
+                position: absolute;
+                left: 12px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #888;
+                font-size: 18px;
+            }
+
+        .btn {
+            width: 100%; /* Make the button take full width */
+            padding: 12px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 18px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+                transform: translateY(-2px);
+            }
+
+        .error-message {
+            color: #d9534f;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    @Scripts.Render("~/bundles/jqueryval")
+}
+
+<div class="login-container">
+    <h2>Login</h2>
+    @using (Html.BeginForm("login", "User", FormMethod.Post))
+    {
+        <div class="form-group">
+            <label for="username">Username</label>
+            <i class="fas fa-user icon"></i>
+            @Html.TextBoxFor(m => m.u_email, new { @class = "form-control", @id = "email", @required = "required", placeholder = "Enter your email" })
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <i class="fas fa-lock icon"></i>
+            @Html.PasswordFor(m => m.u_password, new { @class = "form-control", @id = "password", @required = "required", placeholder = "Enter your password" })
+        </div>
+        <button type="submit" class="btn">Login</button>
+        <div class="form-group">
+            <p class="error-message">@ViewBag.error</p>
+        </div>
+    }
+</div>
